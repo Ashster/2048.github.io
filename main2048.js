@@ -19,8 +19,8 @@ function prepareForMobile() {
         cellSideLength = 100;
     }else{
         $("body").css({
-            position:fixed;
-            width:100%;
+            position:"fixed",
+            width:"100%"
         });
     }
     $('#grid-container').css('width', gridContainerWidth - 2 * cellSpace);
